@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" minimumValueImage="01.square.fill" catalog="system" maximumValueImage="50.circle.fill" translatesAutoresizingMaskIntoConstraints="NO" id="bvF-Cl-IXL">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minValue="1" maxValue="50" minimumValueImage="01.square.fill" catalog="system" maximumValueImage="50.circle.fill" translatesAutoresizingMaskIntoConstraints="NO" id="bvF-Cl-IXL">
                                 <rect key="frame" x="62" y="192" width="772" height="31"/>
                                 <color key="tintColor" systemColor="systemPinkColor"/>
                                 <color key="thumbTintColor" systemColor="systemPinkColor"/>
@@ -48,6 +48,10 @@
                             <constraint firstItem="bFN-Yt-Mq3" firstAttribute="top" secondItem="bvF-Cl-IXL" secondAttribute="bottom" constant="30" id="ksc-fh-EKU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="Zjc-ga-TAQ" id="Ngt-MD-Eqx"/>
+                        <outlet property="slider" destination="bvF-Cl-IXL" id="Qh9-nO-dD0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
